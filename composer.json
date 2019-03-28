@@ -1,0 +1,33 @@
+{
+    "name": "giove/filesystem-stream-wrapper",
+    "type": "library",
+    "description": "Filesystem stream wrapper",
+    "license": [
+        "LGPL-2.1-or-later",
+        "LGPL-3.0-or-later"
+    ],
+    "authors": [
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/Giove/php-filesystem-stream-wrapper/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "ext-xmlwriter": "*",
+        "phpunit/phpunit": "^7.5",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Giove\\StreamWrapper\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Giove\\StreamWrapper\\Tests\\": "tests"
+        }
+    }
+}
